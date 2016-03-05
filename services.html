@@ -23,23 +23,28 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <div id="wrapper">
+        <div id="wrapper" style="background-color: #F0F2F5;">
 
             <!-- Sidebar -->
-            <div id="sidebar-wrapper">
+                        <div id="sidebar-wrapper">
                 <ul class="sidebar-nav">
                     <br><br><br>
                     <li>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#">Products</a>
+                        <a href="products.html">Products</a>
+                        <ul >
+                            <li><a href="MC2000.html">MC2000</a></li>
+                            <li><a href="MC3000.html">MC3000</a></li>
+                            <li><a href="militaryKeyboards.html">Military Keyboards</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="services.html">Services</a>
@@ -55,52 +60,57 @@
             <!-- /#sidebar-wrapper -->
 
             <!-- header -->
-              <div class="jumbotron" style="background-color: #A3CEFF;">
-                <h1 style="padding-left:10px;">MCH Systems</h1>      
-                <p style="padding-left:15px;">Mission Critical Hardware</p>
-              </div>    
+            <div class="jumbotron" style="background-color: #A3CEFF;">
+                <h3 style="padding-left:10px;">MCH Systems</h3>      
+                <h5 style="padding-left:10px;">Mission Critical Hardware</h5>
+            </div>  
 
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>MCH</h1>
-						<h4>Mission Critical Hardware</h4>
-                        <p>MCH Systems is equipped to support customers from initial design through implementation of highly sophisticated mission critical computing systems.
- 
-						Strategic working agreements with OEM hardware and major software suppliers enable MCH Systems to support its customers with exacting performance specifications, delivery, and cost schedules.
-						 
-						MCH Systems has now developed highly reliable computer systems based upon VXS, VME, Compact PCI, and ATX OEM board products suitable for use in airborne, shipboard, and ground mobile applications. 
-						 
-						Designed to meet stringent military specifications and standards and tested to confirm compliance.
-						 
-						Flat Panel Color Monitors and Rugged Keyboards and Trackballs make MCH Systems your complete mission critical computer hardware supplier.
-						 
-						Our primary products form the basis for many custom computing systems that support communications, information technology, signal processing, and other mission critical computing applications.
-						 
-						MCH Systems has become known for our custom engineering services and our ability to provide quick product development and qualification.  If your requirements cannot be met with off-the-shelf hardware and your schedule is tight, look no further, you have found your partner. </p>
-						</p>
-<p>OFF-THE-SHELF PRODUCTS</p>
-<p>
-MC2000 VME64x ATR Chassis
-This chassis is an eight slot VME64x ATR system with up to four redundant 250 watt hot-swappable power supplies
-</p>
- <p>
-MC3000 Precision Cooled Chassis
- VXS - VME64x -cPCI  19" Rackmount chassis with up to three 500 watt hot-swappable power supplies
-</p>
- <p>
-Military Keyboards
-Off-the-shelf rugged keyboards and trackballs</p>
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                            <p>MCH Systems is equipped to support customers from initial design through implementation of highly sophisticated mission critical computing systems.
+                               
+                              Strategic working agreements with OEM hardware and major software suppliers enable MCH Systems to support its customers with exacting performance specifications, delivery, and cost schedules.
+                              
+                              MCH Systems has now developed highly reliable computer systems based upon VXS, VME, Compact PCI, and ATX OEM board products suitable for use in airborne, shipboard, and ground mobile applications. 
+                              
+                              Designed to meet stringent military specifications and standards and tested to confirm compliance.
+                              
+                              Flat Panel Color Monitors and Rugged Keyboards and Trackballs make MCH Systems your complete mission critical computer hardware supplier.
+                              
+                              Our primary products form the basis for many custom computing systems that support communications, information technology, signal processing, and other mission critical computing applications.
+                              
+                              MCH Systems has become known for our custom engineering services and our ability to provide quick product development and qualification.  If your requirements cannot be met with off-the-shelf hardware and your schedule is tight, look no further, you have found your partner. </p>
+                          </p>
+                          <p>OFF-THE-SHELF PRODUCTS</p>
+                          <p>
+                            MC2000 VME64x ATR Chassis
+                            This chassis is an eight slot VME64x ATR system with up to four redundant 250 watt hot-swappable power supplies
+                        </p>
+                        <p>
+                            MC3000 Precision Cooled Chassis
+                            VXS - VME64x -cPCI  19" Rackmount chassis with up to three 500 watt hot-swappable power supplies
+                        </p>
+                        <p>
+                            Military Keyboards
+                            Off-the-shelf rugged keyboards and trackballs</p>
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- /#page-content-wrapper -->
+            <!-- /#page-content-wrapper -->
 
-    </div>
-    <!-- /#wrapper -->
+        </div>
+        <!-- /#wrapper -->
+        <footer class="footer" style="background-color:white">
+          <div class="container">
+            <p class="text-muted" align="center">Copyright @ MCH</p>
+        </div>
+    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -110,11 +120,12 @@ Off-the-shelf rugged keyboards and trackballs</p>
 
     <!-- Menu Toggle Script -->
     <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
     </script>
+
 
 </body>
 
